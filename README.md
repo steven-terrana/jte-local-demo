@@ -22,7 +22,9 @@ This repository contains a dockerfile in the the `jenkins` directory that integr
 
 To build that container image and launch it, run: 
 
-> just launch-jenkins
+``` bash
+just launch-jenkins
+```
 
 When ready, jenkins will be available at http://localhost:8080
 
@@ -32,19 +34,23 @@ This repo uses `just` to launch `watchexec` to automatically commit changes as t
 
 run: 
 
-> just watch
-
+``` bash
+just watch
+```
 This will launch a persistent process in the foreground.
 
 ## Create a new library
 
 To create a new library in the `libraries` directory, run: 
 
-> just create libraryName
-
+``` bash
+just create libraryName
+```
 
 ## Wrap up
 
 To wipe the slate clean, run: 
 
-> just cleanup
+``` bash
+just cleanup
+```
