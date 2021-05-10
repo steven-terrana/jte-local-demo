@@ -1,0 +1,15 @@
+unclassified:
+  templateGlobalConfig:
+    tier:
+      configurationProvider: "null"
+      librarySources:
+      - libraryProvider:
+          scm:
+            baseDir: "libraries"
+            scm:
+              git:
+                branches:
+                - name: "*/master"
+                buildChooser: "default"
+                userRemoteConfigs:
+                - url: "file:///libraries"
