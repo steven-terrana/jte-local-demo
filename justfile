@@ -13,6 +13,7 @@ create libName:
   mkdir -p libraries/{{libName}}/{src,resources,steps}
 
 watch:
+  git checkout -B demo-branch
   watchexec --exts groovy just commit 
 
 commit: 
@@ -22,5 +23,5 @@ commit:
 cleanup: 
   docker rm -f demo-jenkins
   rm -rf libraries/**
-  git add * 
-  git commit -m "clean start"
+  git checkout main 
+  git branch -D demo-branch
