@@ -9,7 +9,7 @@ unclassified:
             scm:
               git:
                 branches:
-                - name: "*/master"
+                - name: "*/demo-branch"
                 buildChooser: "default"
                 userRemoteConfigs:
                 - url: "file:///libraries"
