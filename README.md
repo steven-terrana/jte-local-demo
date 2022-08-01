@@ -1,13 +1,7 @@
-# CDF Webinar: Using the Jenkins Templating Engine For Pipeline Modeling
+# Overview
 
-This repository contains all the code needed for the live demonstration provided during the webinar. This has been tested on MacOS. 
-
-- [CDF Webinar: Using the Jenkins Templating Engine For Pipeline Modeling](#cdf-webinar-using-the-jenkins-templating-engine-for-pipeline-modeling)
-  - [Prerequisites](#prerequisites)
-  - [Launch Jenkins](#launch-jenkins)
-  - [Watch for local changes](#watch-for-local-changes)
-  - [Create a new library](#create-a-new-library)
-  - [Wrap up](#wrap-up)
+This repository accelerates local development of JTE libraries for demonstration purposes and learning.
+It was originally used as part of a [CDF Webinar](https://www.youtube.com/watch?v=FYLaoqn0pDE).
 
 ## Prerequisites
 
@@ -15,6 +9,8 @@ This repository contains all the code needed for the live demonstration provided
 * [Docker](https://www.docker.com/get-started)
 * Git
 * [watchexec](https://github.com/watchexec/watchexec)
+
+Note that this has been tested on MacOS.
   
 ## Launch Jenkins
 
