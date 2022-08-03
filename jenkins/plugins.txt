@@ -44,7 +44,6 @@ jnr-posix-api:3.1.15-1
 job-dsl:1.81
 jquery3-api:3.6.0-4
 jsch:0.1.55.61.va_e9ee26616e7
-jte-library-scaffold:1.0-SNAPSHOT (private-2022-08-03T12:19:26Z-steventerrana)
 junit:1119.1121.vc43d0fc45561
 ldap:2.11
 lockable-resources:2.16

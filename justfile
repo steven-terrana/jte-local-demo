@@ -7,7 +7,7 @@ build-image:
 
 launch-jenkins: build-image
   docker rm -f demo-jenkins
-  docker run -v $(pwd):/libraries -p 8080:8080 --name demo-jenkins -d local-jenkins
+  docker run -v $(pwd):/libraries -p 8080:8080 --name demo-jenkins --restart=on-failure -d local-jenkins
 
 create libName:
   mkdir -p libraries/{{libName}}/{src,resources,steps}
